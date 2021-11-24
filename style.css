@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cabecalho-bg {
+  background: crimson;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+
+.cabecalho-upper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.cabecalho-upper p, .cabecalho-upper a {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.cabecalho-upper a {
+  border-radius: 4px;
+  padding: 4px 2px;
+  transition-duration: 175ms;
+}
+
+.cabecalho-upper a:hover {
+  background: #fff;
+  color: crimson;
+}
+
+.cabecalho {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:10px;
+}
+
+.cabecalho-main {
+  color: #fff;
+}
+
+.cabecalho-main h1 {
+  font-size: 1.4em;
+}
+
+.cabecalho-main p {
+  text-align: center;
+}
+
+.navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navegacao > a {
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 2px;
+  margin: 10px;
+  transition-duration: 175ms;
+}
+
+.navegacao a:hover {
+  background: #fff;
+  color: crimson;
+}
+
+main {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+main h2, main p {
+  color: #7c7c7c;
+}
+
+main h2 {
+  border-bottom: 3px solid gold;
+  display: inline-block;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+main p {
+  font-size: 1.2em;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.aulas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.aulas-texto h2 {
+  margin-top: 0px;
+}
+
+.escola {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rodape {
+  align-items: center;
+  background: crimson;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.rodape a{
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 2px;
+  transition-duration: 175ms;
+}
+
+.rodape a:hover {
+  background: #fff;
+  color: crimson;
+}
